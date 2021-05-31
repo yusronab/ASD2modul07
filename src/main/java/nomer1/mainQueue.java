@@ -7,9 +7,9 @@ public class mainQueue {
         newQueue.enqueue(33);
         newQueue.show();
         System.out.println("data paling depan = "+newQueue.peek());
+        newQueue.enqueue(60);
         newQueue.show();
         System.out.println("data yang diambil = "+newQueue.dequeue());
-        newQueue.enqueue(60);
         newQueue.show();
         System.out.println("data yang diambil = "+newQueue.dequeue());
         newQueue.show();
